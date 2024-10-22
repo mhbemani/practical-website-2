@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 229, 255);
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    height: 100dvh;
+    width: 100dvw;
+}
+#login-signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,rgb(255, 0, 0,0.7),rgb(0, 0, 255,0.7));
+    height: 54dvh;
+    width: 60dvh;
+    /* aspect-ratio: 1/1; */
+    border-radius: 6dvh;
+    gap: 5%;
+}
+#loginORsignup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin: 0px;
+    padding: 0px;
+    height: 8dvh;
+    width: 80%;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 2.1dvh;
+}
+.login-signup-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 50%;
+    font-size: 2.7dvh;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(71, 64, 104);
+    z-index: 2;
+}
+#login-option-identifier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 8dvh;
+    width: 24dvh;
+    background-color: rgba(121, 121, 121, 0.223);
+    border-radius: 2.1dvh;
+}
+#loginsignup-textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 24dvh;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2.1dvh;
+}
+#login-textfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    gap: 15%;
+}
+#signup-textfield{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    gap: 10.6%;
+}
+.login-signup-textbox{
+    font-size: 3dvh;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    height: 6.7dvh;
+    width: 80%;
+    border-radius: 2.4dvh;
+    margin: 0px;
+    padding: 1.7dvh;
+    padding-left: 3dvh;
+    resize: none;
+    scrollbar-width: 0px;
+}
+#login-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 7dvh;
+    aspect-ratio: 3/1;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2.1dvh;
+    border: none;
+    font-size: 2.7dvh;
+}
