@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <div id="login-signup">
+        <div id="loginORsignup">
+            <span id="login-option" class="login-signup-class" onclick="submit_login()">login</span>
+            <span id="signup-option" class="login-signup-class" onclick="submit_signup()">signup</span>
+            <span id="login-option-identifier"></span>
+        </div>
+        <div id="loginsignup-textfield">
+            <div id="login-textfield">
+                <textarea name="login-username" id="login-username" class="login-signup-textbox" placeholder="username"></textarea>
+                <textarea name="login-password" id="login-password" class="login-signup-textbox" placeholder="password"></textarea>
+            </div>
+            <div id="signup-textfield">
+                <textarea name="signup-username" id="signup-username" class="login-signup-textbox" placeholder="username"></textarea>
+                <textarea name="signup-password" id="signup-password" class="login-signup-textbox" placeholder="password"></textarea>
+                <textarea name="signup-pass-confirmation" id="signup-pass-confirmation" class="login-signup-textbox"
+                 placeholder="password"></textarea>
+            </div>
+        </div>
+        <button id="login-submit" onclick="">login</button>
+    </div>
+</body>
+</html>
