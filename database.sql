@@ -1,0 +1,12 @@
+-- CREATE DATABASE bastany;
+-- USE bastany;
+-- CREATE TABLE customers(
+--     id integer PRIMARY KEY AUTO_INCRIMENT,
+--     user_name VARCHAR (255) NOT NULL,
+--     pass_word VARCHAR (255) NOT NULL
+-- );
+
+-- INSERT INTO customers (user_name, pass_word)
+-- VALUES
+-- ('maximus', 'spartakos'),
+-- ('maryam','mardaneh');
