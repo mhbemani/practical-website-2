@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 0px;
+    width: 100vw;
+    height: 200dvh;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 12dvh;
+    width: 100dvw;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right,rgb(40, 39, 45), rgb(52, 51, 59));
+    border: none;
+    /* overflow: hidden; */
+}
+#right-header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    column-gap: 7dvh;
+    padding-right: 7dvh;
+}
+#left-header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    column-gap: 7dvh;
+    padding-left: 7dvh;
+    
+}
+.header-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5dvh;
+    background-color: transparent;
+    border: none;
+    height: 7dvh;
+    width: 5dvw;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 244, 244);
+    font-size: 2dvh;
+    transition-duration: 100ms;
+}
+.header-buttons:hover{
+    background-color: rgba(255, 255, 255, 0.012);
+    font-size: 3dvh;
+    transition-duration: 100ms;
+    width: 5.1dvw;
+}
+#product-bar{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    position: absolute;
+    height: 0px;
+    width: 20dvw;
+    transform: translate(-7dvw,12dvh);
+    transition-duration: 1s;
+    background-color: rgba(255, 255, 255, 0.48);
+}
+#login-entrance{
+    color: rgb(255, 244, 244);
+    font-size: 2dvh;
+    text-decoration: none;
+}
+.main-div{
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right,rgb(40, 39, 45), rgb(52, 51, 59));
+    background-repeat:no-repeat;
+    background-size: 100dvw 100dvh;
+}
+#second-div{
+    width: 100dvw;
+    height: 60dvh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right,rgb(40, 39, 45), rgb(52, 51, 59));
+    background-size: 100dvw 88dvh;
+}
+footer{
+    height: 28dvh;
+    width: 100dvw;
+    background-color: rgb(78, 76, 85);
+    background-image: linear-gradient(to top,rgb(78, 76, 85),rgb(52, 51, 59));
+}
