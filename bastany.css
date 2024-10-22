@@ -9,6 +9,7 @@ body{
     width: 100vw;
     height: 200dvh;
 }
+
 header{
     display: flex;
     align-items: center;
